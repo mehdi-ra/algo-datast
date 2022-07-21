@@ -1,0 +1,16 @@
+{
+  "name": "algorithm_data_structure",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc -w",
+    "install": "install database"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
