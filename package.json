@@ -2,15 +2,16 @@
   "name": "algorithm_data_structure",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.7.4"
   },
   "scripts": {
-    "build": "tsc -w",
-    "install": "install database"
+    "start": "ts-node index.ts"
   },
   "dependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1"
   }
 }
